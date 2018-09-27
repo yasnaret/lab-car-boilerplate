@@ -1,1 +1,317 @@
-/* Los estilos de tu proyecto */
+  /*reutilizables*/
+  .background-yellow {
+    background-color: #F7B617;
+  }
+  
+  .backgroundColor-color-footer {
+    background-color: #2B2B2B;
+    color: white;
+  }
+  
+  .m-0 {
+    margin: 0px;
+  }
+
+/*Header*/
+
+a.logo-mobile {
+    padding-top: 5vh;
+  }
+  /*Nav Container*/
+  nav.navbar-default > div,
+  div.navbar-header,
+  div.navbar-header > a,
+  #bs-example-navbar-collapse-1 {
+    background-color: white;
+    height: 17vh;
+  }
+  /*Nav Menu*/
+  #bs-example-navbar-collapse-1 > ul.nav.navbar-nav.navbar-right {
+    margin-top: 4.5vh;
+    margin-right: 10vw;
+  }
+  /*Espace*/
+  #bs-example-navbar-collapse-1 > ul > li:nth-child(1) > a,
+  #bs-example-navbar-collapse-1 > ul > li:nth-child(2) > a,
+  #bs-example-navbar-collapse-1 > ul > li:nth-child(3) > a {
+    margin-left: 2.5vw;
+  }
+  /*Hamburguesa boton*/
+  div.navbar-header > button {
+    margin-left: 6vw;
+    margin-top: 5vh;
+  }
+  /*Borde del nav*/
+  nav.navbar-default {
+    border: none;
+    margin-bottom: 0;
+  }
+
+  /*Background de la sección 1*/
+  body > div.jumbotron {
+    background-image: url("../assets/images/taxi.jpg");
+    background-size: cover;
+    margin: 0;
+    background-position: 100% 92%;
+    height: 106.5vh;
+    padding-right: 0;
+    padding-top: 23vh;
+  }
+  /*Form right*/
+  div.col-jumbotron2 > div.jumbotron {
+    background-color: #F7B617;
+    border-radius: 0;
+    color: white;
+    height: 60vh;
+    padding: 7vh 4vw;
+    margin: 0;
+  }
+  /*Padding derecho a la columna*/
+  div.col-jumbotron2 {
+    padding: 0;
+  }
+  /*Texto de jumbotron*/
+  div.col-jumbotron2 > div.jumbotron-desktop > h2 {
+    font-size: 2.2em;
+    margin: 0;
+  }
+  /*Texto del jumbotron2 */
+  div.col-jumbotron2 > div.jumbotron-desktop > p:nth-child(3) {
+    margin-top: 5vh;
+  }
+  /*Logo2*/
+  div.col-jumbotron2 > div.jumbotron-desktop > p:nth-child(3) > img {
+    height: 3.5vh;
+    margin-left: 1vw;
+    width: 6.5vw;
+  }
+  /*Líneas horizontales*/
+  div.col-jumbotron2 > div.jumbotron-desktop > div > div > hr {
+    display: inline-block;
+    width: 10vw;
+  }
+  /*texto "o bien"*/
+  div.col-jumbotron2 > div.jumbotron-desktop > div > div > p {
+    font-size: 1em;
+    margin: 0 5vw;
+  }
+  /*Jumbotron mobile*/
+  div.jumbotron.visible-xs {
+    padding-top: 40vh;
+    padding-left: 10vw;
+  }
+  /*Padding de la columna mobile*/
+  div.mobile-jumbotron > div {
+    padding: 0;
+  }
+  /*Jumbotron mobile*/
+  div.mobile-jumbotron > div > div {
+    background-color: #F7B617;
+    border-radius: 0;
+    color: white;
+    margin: 0;
+  }
+  /*Botton jumbotron*/
+  div.jumbotron.hidden-xs > div > div > div > div > p:nth-child(6) > a {
+    margin-top: 2vh;
+  }
+  /*Logo del jumbotron*/
+  div.jumbotron.visible-xs > div > div > div > div > p:nth-child(1) > img {
+    margin-left: 2vw;
+    width: 34%;
+    width: 3em;
+  }
+  /*Jumbotron2 mobile*/
+  div.jumbotron.visible-xs > div > div > div > div {
+    padding: 2vh 10vw 2vh 5vw;
+  }
+  /*Texto*/
+  div.mobile-jumbotron > div > div > p:nth-child(1) {
+    font-size: 1.6em;
+    margin-bottom: 2vh;
+  }
+  /*Border-radius*/
+  body > div.jumbotron.visible-xs > div > div > div > div {
+    border-radius: 0;
+  }
+  
+  /*Sección 2*/
+  div.section-2 > div > div {
+    background-color: #F7B617;
+    color: white;
+    padding: 8vh 0;
+  }
+  /*Cuadro del teléfono*/
+  div.section-2 > div > div > div > div {
+    border: 1px solid white;
+    border-left: none;
+    height: 77vh;
+    padding: 5vh 6vw 5vh 10vh;
+  }
+  /*p de la tercera sección*/
+  div.section-2 > div > div > div > div > div > div.media-body > p {
+    font-size: 1.6em;
+    margin-top: 5vh;
+  }
+  /*Media-body para acomodar todo el texto*/
+  div.section-2 > div > div > div > div > div > div.media-body {
+    padding: 5.5vh 4vw 0vh 8vw;
+  }
+  /*Sección 2 mobile*/
+  div.section-2 > div.row.visible-xs > div {
+    padding: 6vh 4vw 6vh 4vw;
+  }
+  /*Recuadro blanco*/
+  div.section-2 > div.row.visible-xs > div > div {
+    border: 1px solid white;
+    padding: 14vh 12vw;
+  }
+  /*Imagen mobile*/
+  div.section-2 > div.row.visible-xs > div > div > a > img {
+    margin: 0 auto;
+  }
+  
+  div.section-2 > div.row.visible-xs > div > h4 {
+    font-size: 1em;
+    margin: 0;
+    margin-top: 4vh;
+  }
+  
+  /*Sección 3*/
+  /*Background de la sección 3*/
+  div.section-3 {
+    background-image: url("../assets/images/conduce.jpg");
+    background-size: cover;
+    background-position: 95% 60%;
+    color: white;
+  }
+  /*Padding que estorban*/
+  body > div.container-fluid.section-3 > div > div,
+  body > div.container-fluid.section-3 > div > div > div > div {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /*Boton "Conviértete en conductor"*/
+  button.section-3 {
+    background-color: #F7B617;
+    color: white;
+    border: 1px solid transparent
+  }
+  /*Media-body opacidad*/
+  body > div.container-fluid.section-3 > div > div > div > div > div > div.media-body {
+    background-color: rgba(0, 0, 0, 0.57);
+    padding: 0;
+    padding-left: 5vw;
+    padding-top: 9vh;
+    padding-bottom: 25vh;
+  }
+  /*Texto de la sección 3*/
+  body > div.container-fluid.section-3 > div > div > div > div > div > div.media-body > p {
+    font-size: 0.9em;
+    margin: 3vh 0;
+  }
+  
+  /*Sección 4*/
+  /*Contenedor*/
+  div.container-fluid > div.background-yellow > div {
+    padding-top: 14vh;
+    padding-bottom: 12vh;
+  }
+  /*Estilo mapa*/
+  div.container-fluid > div.background-yellow > div > div > div:nth-child(2) > div.maps {
+    border: 1px solid white;
+    padding: 1vh 1vw;
+  }
+  /*Texto*/
+  div.container-fluid > div.background-yellow > div > div > div.col-md-offset-1.col-md-4 {
+    color: white;
+    padding: 10vh 3vw;
+  }
+  /*Mapa Google*/
+  .google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+  }
+  .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+  /*Íconos*/
+  #basic-addon1 {
+    background-color: transparent;
+    border: none;
+  }
+  /*Inputs*/
+  div.input1 > div > input,
+  div.input2 > div > input {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left: 2vw;
+  }
+  
+  div.input1 > div > input::placeholder,
+  div.input2 > div > input::placeholder {
+    color: white;
+  }
+  
+  div.input1 > div > input:focus,
+  div.input2 > div > input:focus {
+    border: 1px solid white;
+    box-shadow: none;
+  }
+  
+  div.input1,
+  div.input2 {
+    margin-top: 5vh;
+  }
+  /*p*/
+  div.container-fluid.background-yellow > div > div > div > div.col-md-offset-1.col-md-4 > p {
+    font-size: 1.4em;
+    margin-top: 3vh;
+  }
+  /*Botón*/
+  div.col-md-offset-1.col-md-4 > p:nth-child(5) > a {
+    margin-left: 12vw;
+    margin-top: 5vh;
+    padding: 1em 2em;
+  }
+  
+  /*Footer*/
+  div.footer {
+    color: white;
+    padding-top: 8vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  div.footer-copyright {
+    padding-bottom: 8vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  div.footer-icons {
+    padding-left: 5vw;
+  }
+  div.footer-icons > a > i {
+    color: white;
+  }
+
+ .listadodePalabras{
+    list-style: none;
+    column-gap:20px;
+ } 
+ .final {
+    padding-left: 5em;
+    margin-right: -30em;
+ }
+
+.img-responsive{
+    margin-bottom: 1em;
+    margin-top: 1.3em;
+}
